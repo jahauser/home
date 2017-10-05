@@ -1,0 +1,23 @@
+fullscreen: True or False; fullscreen recommended for higher performance
+<fullscreen>
+True
+</fullscreen>
+
+configuration: n; random configuration with n objects
+               solar_system; full solar system
+               inner_solar_system; sun and planets through mars
+               outer_solar_system; sun and planets after mars
+               custom; custom file
+<config>
+solar_system
+</config>
+
+force law: float power on r in force law; note that larger exponents may cause overload
+<force>
+-2.0
+</force>
+
+instructions: True or False; determines whether instructions show at beginning of program
+<instructions>
+False
+</instructions>
